@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0183819a-7ffd-4f09-9bdc-8f23f0d1f59e" name="Default Changelist" comment="" />
+    <list default="true" id="0183819a-7ffd-4f09-9bdc-8f23f0d1f59e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/info.php" beforeDir="false" afterPath="$PROJECT_DIR$/info.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +40,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605784203216</updated>
       <workItem from="1605784204429" duration="2000" />
-      <workItem from="1606304243958" duration="6860000" />
+      <workItem from="1606304243958" duration="7055000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <created>1606305181750</created>
