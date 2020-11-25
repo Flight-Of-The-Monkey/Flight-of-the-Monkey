@@ -7,14 +7,6 @@
     <link rel="stylesheet" href="stijl.css">
 
 
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>RekenWebsite</title>
-
-    	<link rel="stylesheet" href="stijl.css" type="text/css"
-	href="stijl.css" />
-
 </head>
 <body>
 
@@ -36,12 +28,7 @@
     <div class="container col-md-3 left-column">
         <div class="card">
             <div class="card-body">
-                <fieldset>
-                    <hr />
-
-                    <h3 class="card-title">Info</h3>
-                    <hr />
-                </fieldset>
+               
                 <p class="card-text">
                    
 
