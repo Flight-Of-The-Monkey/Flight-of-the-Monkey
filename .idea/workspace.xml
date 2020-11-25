@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0183819a-7ffd-4f09-9bdc-8f23f0d1f59e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/stijl.css" afterDir="false" />
-    </list>
+    <list default="true" id="0183819a-7ffd-4f09-9bdc-8f23f0d1f59e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +37,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605784203216</updated>
       <workItem from="1605784204429" duration="2000" />
-      <workItem from="1606304243958" duration="5266000" />
+      <workItem from="1606304243958" duration="5868000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <created>1606305181750</created>
