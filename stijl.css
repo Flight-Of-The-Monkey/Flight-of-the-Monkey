@@ -8,8 +8,7 @@
 			color: indigo;
             display: block;
 		}
-<<<<<<< HEAD
-=======
+
 						.vakantie-rooster{
 			padding: 6px 8px 6px 16px;
             text-decoration: none;
@@ -19,18 +18,18 @@
 			float:left;
 			
 		}
->>>>>>> origin/css
+
 				.two{
 			padding: 6px 8px 6px 16px;
             text-decoration: none;
             font-size: 25px;
 			color: indigo;
             display: block;
-<<<<<<< HEAD
-=======
+
+
 			overflow: hidden;
 			
->>>>>>> origin/css
+
 		}
         .sidenav {
             height: 100%;
@@ -57,11 +56,11 @@
         }
 
         .main {
-<<<<<<< HEAD
+
             margin-left: 160px; 
-=======
+
             margin-left: 160px;
->>>>>>> origin/css
+
             font-size: 28px;
             padding: 0px 10px;
         }
@@ -74,13 +73,13 @@
 			display:block;
 			margin-left:auto;
 			margin-right:auto;
-<<<<<<< HEAD
+
 		}
         .infouders {
             border: 5px outset darkkhaki;
             background-color: #77dd77;
             text-align: center;
         }
-=======
-		}
->>>>>>> origin/css
+
+
+
