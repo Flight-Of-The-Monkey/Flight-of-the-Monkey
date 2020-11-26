@@ -25,15 +25,13 @@
 
 <div class="main">
 
-    <div class="container col-md-3 left-column">
-        <div class="card">
-            <div class="card-body">
-               
-                <p class="card-text">
-                   
-
-                    <h3 class="one">Info</h3>
-                    <hr />
+<div class="container col-md-3 left-column">
+    <div class="card">
+        <div class="card-body">
+            <fieldset>
+                <hr />
+                <h2 class="card-title">info</h2>
+                <hr />
                 </fieldset>
 					<div class="vakantie-rooster">
 					<div>
