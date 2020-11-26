@@ -7,10 +7,17 @@
 
 </head>
 <body>
-
-
+<script>
+function playAudio(url) {
+  new Audio(url).play();
+}
+</script>
+       
 <div class="sidenav">
-    <img src="bestanden/logo.jpg" alt="logo de splinter" WIDTH="95" HEIGHT="100" class="pica">
+
+
+
+	<img src="bestanden/logo.jpg" alt="logo de splinter" WIDTH="95" HEIGHT="100" class="pica" onclick="playAudio('Initial D Spitfire normal.mp3')">
     <a href="rekenwebsite.php">home</a>
     <a href="info.php">info</a>
     <a href="oefenen.php">oefenen</a>
@@ -62,6 +69,7 @@
             </div>
         </div>
     </div>
+	<a href = "mailto: jacob.petersen@gmail.com">neem contact met ons op via mail</a>
 
 
 </body>
