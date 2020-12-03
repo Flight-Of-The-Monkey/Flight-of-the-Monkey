@@ -76,26 +76,31 @@
 
     ?>
 
-    <form action="" method="get">
+    <form action="" method="POST">
         <input name="antwoord" type="text">
         <input type="button" value="check" onclick="return updateTable();">
     </form>
 
+
 <?php
 
-$antwoord ="antwoord";
 
-if ($antwoord == $uitkomst)
-    {
-    echo "Goed Gedaan";
+if ( isset( $_POST['check'] ) ) {
+    $antwoord = $_POST["antwoord"];
+}
+
+    if ($antwoord == $uitkomst) {
+        echo "Goed Gedaan";
+    } else {
+        echo "Fout";
+
     }
 
-else{
-    echo "Fout";
-
-}
 ?>
 
+    <form>
+        <input type="button" value="volgende vraag">
+    </form>
 </body>
 
 </html>
