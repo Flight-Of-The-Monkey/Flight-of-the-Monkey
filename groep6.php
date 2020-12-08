@@ -101,6 +101,7 @@ if ( isset( $_POST['check'] ) ) {
     <form>
         <input type="button" value="volgende vraag">
     </form>
+    
 </body>
 
 </html>
