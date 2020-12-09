@@ -65,7 +65,7 @@
     ?>
 
     <form method="POST" action="page2.php">
-        What's <?php echo $math; ?> = <input name="answer" type="text" /><br />
+        Wat is <?php echo $math; ?> = <input name="answer" type="text" /><br />
         <input type="submit" />
     </form>
 

@@ -39,11 +39,7 @@ function playAudio(url) {
                     Facebook:                         <br />
                     Instagram:                        <br />
                     Twitter:                          <br />
-                    Snapchat:                         <br />
-                    SteamID:                          <br />
-                    EpicID:                           <br />
-                    XboxID:                           <br />
-                    PsnID:                            <br />
+
                 </fieldset>
                 </p>
             </div>
