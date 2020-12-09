@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+
+!DOCTYPE html>
 <html lang="nl">
 <head>
     <meta charset="UTF-8">
@@ -48,6 +49,7 @@
 
     $getal2 = rand ();
 
+
     $randomScore = rand(1,4); // random score between 0-4
     switch ($randomScore) {
 
@@ -73,35 +75,38 @@
     echo "<br />";
     echo $uitkomst;
 
-
     ?>
 
     <form action="" method="POST">
-        <input name="antwoord" type="text">
+        <input name="answer" type="text">
         <input type="button" value="check" onclick="return updateTable();">
     </form>
 
 
 <?php
 
+if ( isset( $_POST['check'] )) {
 
-if ( isset( $_POST['check'] ) ) {
-    $antwoord = $_POST["antwoord"];
+    $answer = $_POST["answer"];
 }
 
-    if ($antwoord == $uitkomst) {
-        echo "Goed Gedaan";
-    } else {
-        echo "Fout";
+    switch ($answer){
+
+        case $answer == $uitkomst :
+            echo "Goed Gedaan";
+        break;
+
+        case $answer != $uitkomst :
+            echo "Fout";
+        break;
 
     }
-
 ?>
 
     <form>
         <input type="button" value="volgende vraag">
     </form>
-    
+
 </body>
 
 </html>
