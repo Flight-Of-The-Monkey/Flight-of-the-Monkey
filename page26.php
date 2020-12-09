@@ -51,7 +51,7 @@
         echo 'correct';
     if  ($_SESSION['answer'] == $_POST['answer'] )
         echo '<form method="POST" action="snake6.php">
-                 <input type="submit" value="snake game" >
+                 <input  type="submit" value="snake game" >
                  </form>  ';
     else
         echo 'wrong. We expected '.$_SESSION['answer'];
