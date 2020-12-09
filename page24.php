@@ -50,7 +50,7 @@
         echo 'correct';
     if  ($_SESSION['answer'] == $_POST['answer'] )
            echo '<form method="POST" action="snake.php">
-                 <input  type="submit" value="snake game" >
+                 <input type="submit" value="snake game" >
                  </form>  ';
 
     else
