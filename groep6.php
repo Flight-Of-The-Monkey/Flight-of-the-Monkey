@@ -44,67 +44,31 @@
 
     <?php
 
+    session_start();
 
-    $getal1 = rand ();
-
-    $getal2 = rand ();
-
-
-    $randomScore = rand(1,4); // random score between 0-4
-    switch ($randomScore) {
-
-        case 1:
-            $uitkomst = $getal1 * $getal2;
-            echo "hoeveel is $getal1 * $getal2";
-            echo "<br/>";
-            break;
-        case 2:
-            $uitkomst = $getal1 / $getal2;
-            echo "hoeveel is $getal1 / $getal2";
-            break;
-        case 3:
-            $uitkomst = $getal1 + $getal2;
-            echo "hoeveel is $getal1 + $getal2";
-            break;
-        case 4:
-            $uitkomst = $getal1 - $getal2;
-            echo "hoeveel is $getal1 - $getal2";
-            break;
+    $digit1 = mt_rand( -90000000, 90000000);
+    $digit2 = mt_rand( -90000000, 90000000);
+    if( mt_rand(0,3) === 0 ) {
+        $math = "$digit1 + $digit2";
+        $_SESSION['answer'] = $digit1 + $digit2;
+    } elseif( mt_rand(0,3) === 1 ) {
+        $math = "$digit1 - $digit2";
+        $_SESSION['answer'] = $digit1 - $digit2;
     }
-
-    echo "<br />";
-    echo $uitkomst;
+    elseif( mt_rand(0,3) === 2 ) {
+        $math = "$digit1 * $digit2";
+        $_SESSION['answer'] = $digit1 * $digit2;
+    }
+    else {
+        $math = "$digit1 / $digit2";
+        $_SESSION['answer'] = $digit1 / $digit2;
+    }
 
     ?>
 
-    <form action="" method="POST">
-        <input name="answer" type="text">
-        <input type="button" value="check" onclick="return updateTable();">
-    </form>
-
-
-<?php
-
-if ( isset( $_POST['check'] )) {
-
-    $answer = $_POST["answer"];
-}
-
-    switch ($answer){
-
-        case $answer == $uitkomst :
-            echo "Goed Gedaan";
-        break;
-
-        case $answer != $uitkomst :
-            echo "Fout";
-        break;
-
-    }
-?>
-
-    <form>
-        <input type="button" value="volgende vraag">
+    <form method="POST" action="page26.php">
+        What's <?php echo $math; ?> = <input name="answer" type="text" /><br />
+        <input type="submit" />
     </form>
 
 </body>

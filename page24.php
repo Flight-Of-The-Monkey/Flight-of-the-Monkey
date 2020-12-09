@@ -42,32 +42,23 @@
 
 
     <?php
-
     session_start();
 
-    $digit1 = mt_rand(0,50);
-    $digit2 = mt_rand(0,50);
-    if( mt_rand(0,3) === 0 ) {
-        $math = "$digit1 + $digit2";
-        $_SESSION['answer'] = $digit1 + $digit2;
-    } elseif( mt_rand(0,3) === 1 ) {
-        $math = "$digit1 - $digit2";
-        $_SESSION['answer'] = $digit1 - $digit2;
-    }
-    elseif( mt_rand(0,3) === 2 ) {
-        $math = "$digit1 * $digit2";
-        $_SESSION['answer'] = $digit1 * $digit2;
-    }
-    else {
-        $math = "$digit1 / $digit2";
-        $_SESSION['answer'] = $digit1 / $digit2;
-    }
+    echo "You entered ".htmlentities($_POST['answer'])." which is ";
+
+    if ($_SESSION['answer'] == $_POST['answer'] )
+        echo 'correct';
+    if  ($_SESSION['answer'] == $_POST['answer'] )
+           echo '<form method="POST" action="snake.php">
+                 <input type="submit" value="snake game" >
+                 </form>  ';
+
+    else
+        echo 'wrong. We expected '.$_SESSION['answer'];
 
     ?>
-
-    <form method="POST" action="page24.php">
-        What's <?php echo $math; ?> = <input name="answer" type="text" /><br />
-        <input type="submit" />
+    <form method="post" action="groep4.php">
+        <input type="submit" value="volgende vraag">
     </form>
 
 

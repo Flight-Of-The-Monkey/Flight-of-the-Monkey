@@ -40,41 +40,27 @@
         </div>
     </div>
 
-    <?php
 
-    error_reporting(0);
-
-    session_start();
-
-    $digit1 = mt_rand(0,100);
-    $digit2 = mt_rand(0,100);
-    if( mt_rand(0,1) === 1 ) {
-        $math = "$digit1 + $digit2";
-        $_SESSION['answer'] = $digit1 + $digit2;
-    } else {
-        $math = "$digit1 - $digit2";
-        $_SESSION['answer'] = $digit1 - $digit2;
-    }
-
-    ?>
-
-    <form method="POST" action="page2.php">
-        wat is <?php echo $math; ?> = <input name="answer" type="text" /><br />
-        <input type="submit" />
-    </form>
 
     <?php
-
     session_start();
 
     echo "You entered ".htmlentities($_POST['answer'])." which is ";
 
     if ($_SESSION['answer'] == $_POST['answer'] )
         echo 'correct';
+    if  ($_SESSION['answer'] == $_POST['answer'] )
+        echo '<form method="POST" action="snake5.php">
+                 <input type="submit" value="snake game" >
+                 </form>  ';
     else
         echo 'wrong. We expected '.$_SESSION['answer'];
 
     ?>
+
+    <form method="post" action="groep5.php">
+        <input type="submit" value="volgende vraag">
+    </form>
 
 </body>
 
