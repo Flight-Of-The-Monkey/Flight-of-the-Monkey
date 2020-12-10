@@ -18,7 +18,8 @@ function playAudio(url) {
 
 
 	<img src="bestanden/logo.jpg" alt="logo de splinter" WIDTH="95" HEIGHT="100" class="pica" onclick="playAudio('Initial D Spitfire normal.mp3')">
-    <a href="rekenwebsite.php">home</a>
+    <h4 class="slogan"> Kennis is voor de mens! </h4>
+    <a href="index.php">home</a>
     <a href="info.php">info</a>
     <a href="oefenen.php">oefenen</a>
     <a href="contact.php">contact</a>
@@ -34,18 +35,16 @@ function playAudio(url) {
                     <h3 class="card-title">Contacten</h3>
                     <hr />
                     <img src="bestanden/foto_3.jpg" alt="KINDEREN" WIDTH="600" HEIGHT="420" STYLE="float: right;">
-                    Adres:                            <br />
-                    TelefoonNummer:                   <br />
-                    Facebook:                         <br />
-                    Instagram:                        <br />
-                    Twitter:                          <br />
+                    <h5>  Adres:               Schoolstraat 10 6666AA Nederland   </h5>          <br />
+                    <h5>  TelefoonNummer:       024-9999123       </h5>                            <br />
+                    <h5>  kamer van koophandel: 12344412EUG-NL01      </h5>                      <br />
+
 
                 </fieldset>
-                </p>
             </div>
         </div>
     </div>
-	<a href = "mailto: jacob.petersen@gmail.com">neem contact met ons op via mail</a>
+	<a href = "mailto: info@desplinter.edu">neem contact met ons op via mail</a>
 
 
 </body>

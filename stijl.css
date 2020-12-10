@@ -6,12 +6,16 @@ body {
 
 
         }
+
+
 		h2 {
 			color: indigo;
 		}
 				p{
 			color: indigo;
 		}
+
+
 		.one{
             text-decoration: none;
 			color: indigo;
@@ -115,3 +119,7 @@ body {
             margin-left:auto;
             margin-right:auto;
         }
+
+
+
+
