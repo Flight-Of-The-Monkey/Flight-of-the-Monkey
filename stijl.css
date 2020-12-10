@@ -11,9 +11,17 @@ body {
 		h2 {
 			color: indigo;
 		}
+						h3{
+			color: indigo;
+		}
+
 				p{
 			color: indigo;
 		}
+						h5{
+			color: indigo;
+		}
+
 
 
 		.one{
@@ -87,6 +95,12 @@ body {
 			display:block;
 			margin-left:auto;
 			margin-right:auto;
+
+		}
+		.slogan{
+			font-size: 25px;
+			color:blue;
+			text-align:center;
 
 		}
         .infouders {
