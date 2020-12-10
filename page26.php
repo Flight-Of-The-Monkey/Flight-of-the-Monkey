@@ -20,6 +20,7 @@
 
 
     <img src="bestanden/logo.jpg" alt="logo de splinter" WIDTH="95" HEIGHT="100" class="pica" onclick="playAudio('Initial D Spitfire normal.mp3')">
+    <h4 class="slogan"> Kennis is voor de mens! </h4>
     <a href="rekenwebsite.php">home</a>
     <a href="info.php">info</a>
     <a href="oefenen.php">oefenen</a>
