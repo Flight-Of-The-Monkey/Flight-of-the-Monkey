@@ -45,8 +45,8 @@
 
     session_start();
 
-    $digit1 = mt_rand(0,50);
-    $digit2 = mt_rand(0,50);
+    $digit1 = mt_rand(0,10);
+    $digit2 = mt_rand(0,10);
     if( mt_rand(0,3) === 0 ) {
         $math = "$digit1 + $digit2";
         $_SESSION['answer'] = $digit1 + $digit2;
