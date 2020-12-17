@@ -46,7 +46,7 @@
     <?php
     session_start();
 
-    echo "You entered ".htmlentities($_POST['answer'])." which is ";
+    echo "jij hebt ingevuld ".htmlentities($_POST['answer'])." het is ";
 
     if ($_SESSION['answer'] == $_POST['answer'] )
         echo 'correct';
@@ -55,7 +55,7 @@
                  <input  type="submit" value="snake game" >
                  </form>  ';
     else
-        echo 'wrong. We expected '.$_SESSION['answer'];
+        echo 'FOUT. we verwachten '.$_SESSION['answer'];
 
     ?>
 
