@@ -125,6 +125,11 @@ body {
             }
 
 
+                h1{ font-family: "Comic Sans MS";}
+                h2{ font-family: "Comic Sans MS";}
+                h3{ font-family: "Comic Sans MS";}
+                h4{ font-family: "Comic Sans MS";}
+                h5{ font-family: "Comic Sans MS";}
 @media screen and (max-height: 450px) {
             .sidenav {padding-top: 15px;}
             .sidenav a {font-size: 18px;}

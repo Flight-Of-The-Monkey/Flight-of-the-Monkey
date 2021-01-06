@@ -33,7 +33,7 @@
 
         .rekenmachine{
             width: 212px;
-            height: 280px;
+            height: 320px;
             margin-left: 1100px;
             float-left;
             float-right;
