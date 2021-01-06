@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>RekenWebsite</title>
-    <link rel="stylesheet" href="stijl.css">
+    <link rel="stylesheet" type="text/css" href="stijl.css?ver=<?php echo filemtime('stijl.css');?>">
 
 </head>
 <body>
@@ -15,8 +15,6 @@ function playAudio(url) {
 
 
 <div class="sidenav">
-
-
 
 	<img src="bestanden/logo.jpg" alt="logo de splinter" WIDTH="95" HEIGHT="100" class="pica" onclick="playAudio('Initial D Spitfire normal.mp3')">
     <h4 class="slogan"> Kennis is voor de mens! </h4>

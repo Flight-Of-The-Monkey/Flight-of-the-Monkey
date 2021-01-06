@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Contacten</title>
-    <link rel="stylesheet" href="stijl.css">
-
+    <link rel="stylesheet" type="text/css" href="stijl.css?ver=<?php echo filemtime('stijl.css');?>">
 </head>
 <body>
 <script>
@@ -34,17 +33,50 @@ function playAudio(url) {
                     <hr />
                     <h3 class="card-title">Contacten</h3>
                     <hr />
-                    <img src="bestanden/foto_3.jpg" alt="KINDEREN" WIDTH="600" HEIGHT="420" STYLE="float: right;">
+                    <img src="bestanden/foto_3.jpg" alt="foto van kinderen op school" WIDTH="600" HEIGHT="420" STYLE="float: right;">
                     <h5>  Adres:               Schoolstraat 10 6666AA Nederland   </h5>          <br />
                     <h5>  TelefoonNummer:       024-9999123       </h5>                            <br />
                     <h5>  kamer van koophandel: 12344412EUG-NL01      </h5>                      <br />
 
 
+                <div class="email">
+
+                    <form method="post" action="contact.php">
+                        <label>naam:</label>
+                        <br />
+                        <input name="sender">
+                        <br />
+                        <label>Email address:</label>
+                        <br />
+                        <input name="senderEmail">
+                        <br />
+                        <label>Bericht:</label>
+                        <br />
+                        <textarea rows="5" cols="20" name="message"></textarea>
+                        <br />
+                        <button onclick="myFunction()">versturen</button>
+
+                        <p id="demo"></p>
+
+
+
+                        <script>
+                            function myFunction() {
+                                alert("Dank u! Uw bericht is verzonden!");
+                            }
+                        </script>
+
+
+
+                    </form>
+                </div>
+
                 </fieldset>
+
             </div>
         </div>
     </div>
-	<a href = "mailto: info@desplinter.edu">neem contact met ons op via mail</a>
+
 
 
 </body>

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>RekenWebsite</title>
-    <link rel="stylesheet" href="stijl.css">
+    <link rel="stylesheet" type="text/css" href="stijl.css?ver=<?php echo filemtime('stijl.css');?>">
 
     <style>
         .title{
@@ -101,6 +101,8 @@
 
     <?php
 
+    error_reporting(0);
+
     session_start();
 
     $digit1 = mt_rand( -90000000, 90000000);
@@ -125,7 +127,7 @@
 
     <form method="POST" action="page26.php">
         wat is <?php echo $math; ?> = <input name="answer" type="text" /><br />
-        <input type="submit" />
+        <input type="submit" value="versturen" />
     </form>
 
     <div class="rekenmachine">

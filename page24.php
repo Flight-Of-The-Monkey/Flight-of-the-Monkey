@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>RekenWebsite</title>
-    <link rel="stylesheet" href="stijl.css">
+    <link rel="stylesheet" type="text/css" href="stijl.css?ver=<?php echo filemtime('stijl.css');?>">
 
 </head>
 <body>
@@ -43,6 +43,9 @@
 
 
     <?php
+
+    error_reporting(0);
+
     session_start();
 
     echo "jij hebt ingevuld ".htmlentities($_POST['answer'])." het is ";

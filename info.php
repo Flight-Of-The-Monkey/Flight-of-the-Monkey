@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Informatie</title>
-    <link rel="stylesheet" href="stijl.css">
+    <link rel="stylesheet" type="text/css" href="stijl.css?ver=<?php echo filemtime('stijl.css');?>">
 
 
 </head>
