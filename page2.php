@@ -42,6 +42,7 @@
     </div>
 
 
+<div class="antwoord">
 
     <?php
     error_reporting(0);
@@ -52,6 +53,7 @@
 
     if ($_SESSION['answer'] == $_POST['answer'] )
         echo 'correct';
+
     if  ($_SESSION['answer'] == $_POST['answer'] )
         echo '<form method="POST" action="snake5.php">
                  <input  type="submit" value="snake game" >
@@ -59,11 +61,15 @@
     else
         echo 'FOUT. we verwachten '.$_SESSION['answer'];
 
+
     ?>
 
     <form method="post" action="groep5.php">
         <input type="submit" value="volgende vraag">
     </form>
+
+</div>
+
 
 </body>
 
