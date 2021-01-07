@@ -6,28 +6,32 @@
 body {
             font-family: "Comic Sans MS";
 			background-color: #77dd77;
-
-
         }
 
 
 
+        h1{ font-family: "Comic Sans MS";}
+
+
 		h2 {
 			color: indigo;
-		}
-						h3{
-			color: indigo;
-		}
-                        h4{
-                            color: indigo;
-                        }
+            font-family: "Comic Sans MS"; }
 
-				p{
+		h3{
 			color: indigo;
-		}
-						h5{
+            font-family: "Comic Sans MS"; }
+
+        h4{
+            color: indigo;
+            font-family: "Comic Sans MS"; }
+
+		p{
 			color: indigo;
-		}
+            font-family: "Comic Sans MS"; }
+
+		h5{
+			color: indigo;
+            font-family: "Comic Sans MS"; }
 
 
 
@@ -95,8 +99,50 @@ body {
             padding: 0px 10px;
         }
 
+        .som {
+            background-color: cornflowerblue;
+            margin-left: auto;
+            margin-right: auto;
+
+            border: black 2px solid ;
+            height: 200px;
+            width: 400px;
+
+            font-family: "Comic Sans MS";
+            font-size: 50px;
+            text-align: center;
+        }
+
+            #som2 {
+                background-color: cadetblue ;
+                border: black 2px solid;
+                height: 60px;
+                width: 300px;
+                font-family: "Comic Sans MS";
+            }
+
+            #som {
+                border: 2px black solid;
+                height: 40px;
+                width: 100px;
+                font-family: "Comic Sans MS";
+            }
 
 
+            .som6{
+                background-color: cornflowerblue;
+                margin-left: auto;
+                margin-right: auto;
+
+                border: black 2px solid ;
+                height: 220px;
+                width: 400px;
+
+                font-family: "Comic Sans MS";
+                font-size: 40px;
+                text-align: center;
+
+            }
 
             .email {
                 display: block;
@@ -125,11 +171,7 @@ body {
             }
 
 
-                h1{ font-family: "Comic Sans MS";}
-                h2{ font-family: "Comic Sans MS";}
-                h3{ font-family: "Comic Sans MS";}
-                h4{ font-family: "Comic Sans MS";}
-                h5{ font-family: "Comic Sans MS";}
+
 @media screen and (max-height: 450px) {
             .sidenav {padding-top: 15px;}
             .sidenav a {font-size: 18px;}
@@ -179,6 +221,41 @@ body {
         }
 
 
+.title{
+    margin-bottom: 10px;
+    text-align:center;
+    width: 210px;
+    color: indigo;
+    border: solid black 2px;
+
+
+}
+
+.button
+{
+    background-color:firebrick;
+    color: black;
+    border: solid black 2px;
+    width:100%
+}
+
+.text
+{
+    background-color:white;
+    border: solid black 2px;
+    width:100%
+}
+
+.rekenmachine{
+
+    width: 212px;
+    height: 320px;
+    margin-left: 1100px;
+    float-left;
+    float-right;
+    border: 2px solid black;
+
+}
 
 
 

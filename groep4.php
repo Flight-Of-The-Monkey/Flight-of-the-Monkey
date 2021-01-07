@@ -5,43 +5,7 @@
     <title>RekenWebsite</title>
     <link rel="stylesheet" type="text/css" href="stijl.css?ver=<?php echo filemtime('stijl.css');?>">
 
-<style>
-    .title{
-        margin-bottom: 10px;
-        text-align:center;
-        width: 210px;
-        color: indigo;
-        border: solid black 2px;
 
-
-    }
-
-    .button
-    {
-        background-color:firebrick;
-        color: black;
-        border: solid black 2px;
-        width:100%
-    }
-
-    .text
-    {
-        background-color:white;
-        border: solid black 2px;
-        width:100%
-    }
-
-    .rekenmachine{
-        width: 212px;
-        height: 320px;
-        margin-left: 1100px;
-        float-left;
-        float-right;
-        border: 2px solid black;
-
-    }
-
-</style>
 </head>
 <body>
 <script>
@@ -129,11 +93,16 @@
 
     ?>
 
+
+    <div class="som">
+
     <form method="POST" action="page24.php">
-        Wat is <?php echo $math; ?> = <input name="answer" type="text" /><br />
-        <input  type="submit" value="versturen"/>
+        Wat is <?php echo $math; ?> = <input name="answer" id="som2" type="text" /><br />
+        <input  type="submit" id="som" value="versturen"/>
+
     </form>
 
+    </div>
 
     <div class="rekenmachine">
 
