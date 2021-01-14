@@ -126,8 +126,7 @@
 
                     apple.x = getRandomInt(0, 25) * grid;
                     apple.y = getRandomInt(0, 25) * grid;
-                window.close("snake6.php");
-                window.open("groep6.php","_blank");
+                window.open("groep6.php","_self");
                 }
             }
         });
