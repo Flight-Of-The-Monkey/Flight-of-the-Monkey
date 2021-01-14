@@ -100,11 +100,10 @@ body {
         }
 
         .antwoord{
-            background-color: cornflowerblue;
             margin-left: auto;
             margin-right: auto;
 
-            border: black 2px solid ;
+            border: black 5px solid ;
             height: 300px;
             width: 600px;
 
@@ -112,6 +111,15 @@ body {
             font-size: 40px;
             text-align: center;
 
+        }
+
+        #goed {
+            background-color: greenyellow;
+
+        }
+
+        #fout{
+            background-color: red;
         }
 
         .som {

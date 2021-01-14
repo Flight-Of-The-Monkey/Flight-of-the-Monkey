@@ -43,28 +43,47 @@
     </div>
 
 
-    <?php
+    <div class="antwoord" <?php
 
     error_reporting(0);
 
     session_start();
 
-    echo "jij hebt ingevuld ".htmlentities($_POST['answer'])." het is ";
-
     if ($_SESSION['answer'] == $_POST['answer'] )
-        echo 'correct';
-    if  ($_SESSION['answer'] == $_POST['answer'] )
-        echo '<form method="POST" action="snake6.php">
-                 <input  type="submit" value="snake game" >
+        echo 'id="goed"';
+
+    if  ($_SESSION['answer'] != $_POST['answer'] )
+        echo 'id="fout"';
+
+    ?>  >
+
+        <?php
+
+        error_reporting(0);
+
+        session_start();
+
+        echo "jij hebt ingevuld ".htmlentities($_POST['answer'])." het is ";
+
+        if ($_SESSION['answer'] == $_POST['answer'] )
+            echo 'correct';
+        if  ($_SESSION['answer'] == $_POST['answer'] )
+            echo '<form method="POST" action="snake6.php">
+                 <input type="submit" value="snake game" >
                  </form>  ';
-    else
-        echo 'FOUT. we verwachten '.$_SESSION['answer'];
 
-    ?>
+        else
+            echo 'FOUT. we verwachten '.$_SESSION['answer'];
 
-    <form method="post" action="groep6.php">
-        <input type="submit" value="volgende vraag">
-    </form>
+
+
+        ?>
+
+        <form method="post" action="groep6.php">
+            <input type="submit" value="volgende vraag">
+        </form>
+
+    </div>
 
 </body>
 
