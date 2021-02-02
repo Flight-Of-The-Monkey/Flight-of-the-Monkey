@@ -58,8 +58,6 @@ function playAudio(url) {
 
                         <p id="demo"></p>
 
-
-
                         <script>
                             function myFunction() {
                                 alert("Dank u! Uw bericht is verzonden!");
